@@ -1,0 +1,147 @@
+* {
+    margin: 0; padding: 0;
+}
+.header {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.header img {
+    width: 100%;
+    object-fit: cover;
+    height: 50vh;
+    object-position: 0 0;
+    transform: scaleX(-1);
+}
+.header .header-text {
+    position: absolute;
+    top: 45%; left: 20%;
+}
+h1 {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+}
+h2 {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+}
+
+.about {
+    padding: 100px 20%;
+}
+h3.about-text {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+p.about-content {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+p.getintouch {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: black;
+}
+p.email {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 30px;
+}
+.resume {
+    background-color: #0D4F83;
+    color: white;
+    height: 60px; width: 140px;
+    border-radius: 100px;
+    border: none;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.work {
+    padding: 0px 20% 100px 20%;
+}
+.work-text {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+.work-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: space-around;
+}
+.A {
+    position: relative;
+}
+.A .auro {
+    position: absolute;
+    bottom: 10%; left: 10%;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+.B {
+    position: relative;
+}
+.B .gitti {
+    position: absolute;
+    bottom: 10%; left: 10%;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+.C {
+    position: relative;
+}
+.C .eve {
+    position: absolute;
+    bottom: 10%; left: 10%;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+.footer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    color: black;
+}
+.icons a {
+    color: black;
+}
+
+@media (max-width:720px) {
+    .work-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        justify-content: space-around;
+    }
+}
