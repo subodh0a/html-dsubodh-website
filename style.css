@@ -93,6 +93,21 @@ p.email {
 .A {
     position: relative;
 }
+.A img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.B img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.C img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .A .auro {
     position: absolute;
     bottom: 10%; left: 10%;
@@ -137,11 +152,19 @@ p.email {
     color: black;
 }
 
-@media (max-width:720px) {
+@media (max-width:1024px) {
     .work-content {
         display: grid;
         grid-template-columns: 1fr;
         gap: 10px;
         justify-content: space-around;
+    }
+    p.about-content {
+        font-family: "Didact Gothic", sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: black;
+        margin-bottom: 20px;
+        text-align: left;
     }
 }
