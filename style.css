@@ -174,4 +174,15 @@ p.email {
         object-position: 0 0;
         transform: scaleX(-1);
     }
+    .header .header-text {
+        position: absolute;
+        top: 20%; left: 20%;
+    }
+    h1 {
+        font-family: "Didact Gothic", sans-serif;
+        font-weight: 400;
+        font-size: 4rem;
+        color: white;
+        width: 300px;
+      }
 }
