@@ -170,7 +170,7 @@ p.email {
     .header img {
         width: 100%;
         object-fit: cover;
-        height: 80vh;
+        height: 100vh;
         object-position: 0 0;
         transform: scaleX(-1);
     }
