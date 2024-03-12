@@ -167,4 +167,11 @@ p.email {
         margin-bottom: 20px;
         text-align: left;
     }
+    .header img {
+        width: 100%;
+        object-fit: cover;
+        height: 80vh;
+        object-position: 0 0;
+        transform: scaleX(-1);
+    }
 }
